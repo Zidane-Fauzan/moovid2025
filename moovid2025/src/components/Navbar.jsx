@@ -8,7 +8,7 @@ const Navbar = () => {
     <div className="flex flex-wrap items-center justify-between gap-4 w-full">
       <a
         href="javascript:void(0)"
-        className="lg:absolute max-lg:left-10 lg:top-2/4 lg:left-2/4 lg:-translate-x-1/2 lg:-translate-y-1/2 max-sm:hidden"
+        className="lg:absolute max-lg:left-10 lg:top-2/4 lg:left-2/4 lg:-translate-x-1/2 lg:-translate-y-1/2 max-sm:hidden "
       >
         <img
           src="assets/image/logo.png"
