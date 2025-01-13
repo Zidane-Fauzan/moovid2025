@@ -1,5 +1,3 @@
-import React from 'react';
-
 const Body = () => {
   return (
     <div className="w-screen overflow-hidden">
