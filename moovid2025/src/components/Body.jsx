@@ -15,7 +15,7 @@ const Body = () => {
         ></video>
 
         {/* Content Overlay */}
-        <div className="relative z-10 flex flex-col items-center justify-center h-full bg-black bg-opacity-80 text-center px-4">
+        <div className="relative z-10 flex flex-col items-center justify-center h-full bg-black bg-opacity-80 text-center px-4" >
           <h1 className="text-white text-4xl md:text-6xl font-bold mb-4">
           Empowering Sustainable Mobility 
           <p/>
