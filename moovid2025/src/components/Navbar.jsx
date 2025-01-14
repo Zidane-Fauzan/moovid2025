@@ -4,7 +4,7 @@
 const Navbar = () => {
 
   return (
-    <header className="flex-no-wrap fixed top-0 flex w-full items-center justify-between shadow-lg py-4 px-4 sm:px-10 bg-[#5a9588]/40 font-[sans-serif] min-h-[70px] tracking-wide z-50" >
+    <header className="flex-no-wrap fixed top-0 flex w-full items-center justify-between shadow-lg py-4 px-4 sm:px-10 bg-[#5a9588]/70 font-[sans-serif] min-h-[70px] tracking-wide z-50" >
     <div className="flex flex-wrap items-center justify-between gap-4 w-full">
       <a
         href="javascript:void(0)"
