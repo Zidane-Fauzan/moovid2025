@@ -2,7 +2,7 @@ const Footer = () => {
 
     return (
 
-<footer className="bg-white">
+<footer id="footer" className="bg-white">
   <div className="mx-auto max-w-screen-2xl px-4 py-16 sm:px-6 lg:px-8">
     <div
       className="flex flex-col items-center gap-4 rounded-lg bg-[#5a9588] p-6 shadow-lg sm:flex-row sm:justify-between"
