@@ -4,7 +4,7 @@
 const Navbar = () => {
 
   return (
-    <header className="flex-no-wrap fixed top-0 flex w-full items-center justify-between shadow-lg py-4 px-4 sm:px-10 bg-[#5a9588]/70 font-[sans-serif] min-h-[70px] tracking-wide z-50" >
+    <header className="flex-no-wrap fixed top-0 flex w-full items-center justify-between shadow-lg py-4 px-4 sm:px-10 bg-[#ffffff]/100 font-[sans-serif] min-h-[70px] tracking-wide z-50" >
     <div className="flex flex-wrap items-center justify-between gap-4 w-full">
       <a
         href="javascript:void(0)"
@@ -59,7 +59,7 @@ const Navbar = () => {
           <li className="max-lg:border-b max-lg:py-3 px-3">
             <a
               href="javascript:void(0)"
-              className="hover:font-semibold hover:underline text-[#ffffff] block font-normal text-[15px]"
+              className="hover:font-bold hover:underline text-[#19B8ED] block font-semibold text-[15px]"
             >
               Career
             </a>
@@ -67,7 +67,7 @@ const Navbar = () => {
           <li className="max-lg:border-b max-lg:py-3 px-3">
             <a
               href="javascript:void(0)"
-              className="hover:font-semibold hover:underline text-[#ffffff] block font-normal text-[15px]"
+              className="hover:font-bold hover:underline text-[#19B8ED] block font-semibold text-[15px]"
             >
               Products
             </a>
@@ -76,11 +76,11 @@ const Navbar = () => {
       </div>
       <div className="flex items-center ml-auto space-x-6">
         <button className="font-semibold text-[15px] border-none outline-none">
-          <a href="javascript:void(0)" className="hover:font-semibold hover:underline text-[#ffffff] block font-normal text-[15px]">
+          <a href="javascript:void(0)" className="hover:font-bold hover:underline text-[#19B8ED] block font-semibold text-[15px]">
             About Us
           </a>
         </button>
-        <button className="hover:font-semibold hover:underline text-[#ffffff] block font-normal text-[15px]">
+        <button className="hover:font-bold hover:underline text-[#19B8ED] block font-semibold text-[15px]">
           Contact Us
         </button>
         <button id="toggleOpen" className="lg:hidden">
