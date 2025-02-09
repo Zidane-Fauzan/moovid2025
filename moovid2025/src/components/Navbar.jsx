@@ -65,8 +65,8 @@ const Navbar = () => {
           </ul>
           
         </div>
-        <DropdownNav />
       </div>
+      <DropdownNav />
     </header>
   );
 };

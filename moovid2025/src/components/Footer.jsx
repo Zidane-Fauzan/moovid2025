@@ -26,7 +26,7 @@ const Footer = () => {
         {/* Social Media Icons */}
         <div className="mt-6 flex justify-center gap-6">
           {/* Instagram */}
-          <a href="#!" className="[&>svg]:h-7 [&>svg]:w-7 [&>svg]:fill-[#c13584]">
+          <a href="https://www.instagram.com/moovid.life/" className="[&>svg]:h-7 [&>svg]:w-7 [&>svg]:fill-[#c13584]">
   <svg className="w-[50px] h-[50px] fill-[#312c35]" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
 
 {/*! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. */}
@@ -37,7 +37,7 @@ const Footer = () => {
 
 
           {/* TikTok */}
-          <a href="#" className="text-gray-900 transition hover:text-gray-600 [&>svg]:h-7 [&>svg]:w-7">
+          <a href="https://www.tiktok.com/@moovidlife" className="text-gray-900 transition hover:text-gray-600 [&>svg]:h-7 [&>svg]:w-7">
           <svg className="w-[50px] h-[50px] fill-[#312c35]" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
 
 {/*! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. */}
@@ -47,7 +47,7 @@ const Footer = () => {
           </a>
 
           {/* YouTube */}
-          <a href="#" className="text-red-500 transition hover:text-red-700 [&>svg]:h-7 [&>svg]:w-7">
+          <a href="https://www.youtube.com/@Moovidlife" className="text-red-500 transition hover:text-red-700 [&>svg]:h-7 [&>svg]:w-7">
 
           <svg className="w-[50px] h-[50px] fill-[#ff0000]" viewBox="0 0 576 512" xmlns="http://www.w3.org/2000/svg">
 
