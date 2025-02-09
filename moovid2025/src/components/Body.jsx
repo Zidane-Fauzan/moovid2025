@@ -1,9 +1,9 @@
 const Body = () => {
   return (
     <div className="w-screen overflow-hidden">
-
-      {/* Section 3 */}
-      <section className="relative h-screen w-full overflow-hidden">
+      
+      {/* Section 3 */} 
+      <section className="relative h-[70vh] sm:h-screen w-full overflow-hidden">
         {/* Image Background */}
         <img
           className="absolute top-0 left-0 w-full h-full object-cover"
@@ -12,26 +12,24 @@ const Body = () => {
 
         {/* Content Overlay */}
         <div className="relative z-10 flex flex-col items-center justify-end h-full bg-black bg-opacity-20 text-center px-4">
-          <h1 className="text-white text-4xl md:text-6xl font-normal pb-20 tracking-wide">
+          <h1 className="text-white text-xl sm:text-3xl font-normal pb-40">
           Started with simple idea 
-          <p>
           to give beneficial for the people
-          </p>
           </h1>
         </div>
       </section>
 
        {/* Section 5 */}
-       <section className="relative h-screen w-full overflow-hidden">
+       <section className="relative h-[70vh] sm:h-screen w-full overflow-hidden">
         {/* Image Background */}
         <img
-          className="absolute top-0 left-0 w-full h-full object-cover"
+          className="absolute w-full h-full object-fill scale-[1.1] sm:scale-[1]"
           src="/assets/image/img3.jpg"
         ></img>
 
         {/* Content Overlay */}
         <div className="relative z-10 flex items-end py-4 h-full bg-black bg-opacity-50 px-4">
-          <h1 className="text-white text-left md:text-3xl tracking-wide p-20">
+          <h1 className="text-white text-left text-sm sm:text-3xl text- tracking-tight p-4">
           We're committed to creating eco-friendly, <p/>
           high-performance electric two-wheelers that redefine urban mobility. <p/>
           Backed by innovation and a mission for sustainability, <p/>
@@ -41,7 +39,7 @@ const Body = () => {
       </section>
 
       {/* Section 2 */}
-      <section className="relative h-screen w-full overflow-hidden">
+      <section className="relative h-[70vh] sm:h-screen w-full overflow-hidden">
         {/* Video Background */}
         <video
           className="absolute top-0 left-0 w-full h-full object-cover"
@@ -53,10 +51,10 @@ const Body = () => {
 
         {/* Content Overlay */}
         <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-4">
-        <h1 className="text-[#15b7ec] text-4xl md:text-6xl font-normal mb-4 tracking-wider ">
+        <h1 className="text-[#15b7ec] text-xl sm:text-3xl font-normal mb-4 tracking-wider ">
         Every Moovid journey is a celebration of you 
           <p/>
-          Unleash the boundaries, Just keep mooving
+          unleash the boundaries, just keep mooving
           </h1>
         </div>
       </section>

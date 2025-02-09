@@ -1,6 +1,6 @@
 import './App.css'
 import Navbar from './components/Navbar'
-import Body from './components/Body'
+import Velocity from './components/Velocity'
 import Footer from './components/Footer'
 
 
@@ -9,7 +9,7 @@ function App() {
   return (
     <div>
       <Navbar/>
-      <Body/>
+    <Velocity/>
       <Footer/>
     </div>
   )
