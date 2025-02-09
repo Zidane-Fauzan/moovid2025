@@ -1,7 +1,7 @@
 import './App.css'
-import Navbar from './components/Navbar'
-import Velocity from './components/Velocity'
-import Footer from './components/Footer'
+import Navbar from './Navbar'
+import Velocity from './Velocity'
+import Footer from './Footer'
 
 
 function App() { 
