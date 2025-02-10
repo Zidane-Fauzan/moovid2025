@@ -3,7 +3,7 @@ const Body = () => {
     <div className="w-screen overflow-hidden">
       
       {/* Section 3 */} 
-      <section className="relative h-[70vh] sm:h-screen w-full overflow-hidden">
+      <section className="relative h-[60vh] sm:h-screen w-full overflow-hidden">
         {/* Image Background */}
         <img
           className="absolute top-0 left-0 w-full h-full object-cover"
@@ -20,13 +20,20 @@ const Body = () => {
       </section>
 
        {/* Section 5 */}
-       <section className="relative h-[70vh] sm:h-screen w-full overflow-hidden">
-        {/* Image Background */}
-        <img
-          className="absolute w-full h-full object-fill scale-[1.1] sm:scale-[1]"
-          src="/assets/image/img3.jpg"
-        ></img>
+       <section className="relative h-[60vh] sm:h-screen w-full overflow-hidden">
+        {/* Mobile Image */}
+  <img
+    className="absolute w-full h-full object-cover scale-[1.1] sm:hidden"
+    src="/assets/image/img5.jpg"
+    alt="Mobile Background"
+  />
 
+  {/* Desktop Image */}
+  <img
+    className="absolute w-full h-full object-cover scale-[1] hidden sm:block"
+    src="/assets/image/img3.jpg"
+    alt="Desktop Background"
+  />
         {/* Content Overlay */}
         <div className="relative z-10 flex items-end py-4 h-full bg-black bg-opacity-50 px-4">
           <h1 className="text-white text-left text-sm sm:text-3xl text- tracking-tight p-4">
@@ -39,7 +46,7 @@ const Body = () => {
       </section>
 
       {/* Section 2 */}
-      <section className="relative h-[70vh] sm:h-screen w-full overflow-hidden">
+      <section className="relative h-[60vh] sm:h-screen w-full overflow-hidden">
         {/* Video Background */}
         <video
           className="absolute top-0 left-0 w-full h-full object-cover"

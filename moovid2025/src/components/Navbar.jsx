@@ -4,7 +4,23 @@ const Navbar = () => {
   return (
     <header className="fixed top-0 flex w-full items-center shadow-lg py-4 px-4 sm:px-10 bg-[#ffffff]/80 font-[sans-serif] min-h-[70px] tracking-wide z-50 sm:rounded-none rounded-b-2xl">
       <div className="container mx-auto flex items-center justify-between w-full">
-        
+        {/* Menu Kiri (Hanya di Desktop) */}
+        <div className="hidden lg:flex lg:items-center lg:gap-x-5">
+          <a
+            href="javascript:void(0)"
+            className="hover:font-bold hover:underline text-[#19B8ED] font-semibold text-[15px]"
+          >
+            Career
+          </a>
+          <a
+            href="javascript:void(0)"
+            className="hover:font-bold hover:underline text-[#19B8ED] font-semibold text-[15px]"
+          >
+            About Us
+          </a>
+        </div>
+
+
         {/* Logo Tengah */}
         <a
           href="javascript:void(0)"
@@ -30,9 +46,6 @@ const Navbar = () => {
           >
             Contact Us
           </a>
-          
-          {/* Dropdown Navigation */}
-          
         </div>
 
         {/* Menu Mobile (Sidebar) */}

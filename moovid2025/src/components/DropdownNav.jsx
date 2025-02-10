@@ -26,6 +26,16 @@ export default function DropdownNav() {
           <ul className="py-2 text-sm text-gray-700">
             <li>
               <button className="block w-full text-left px-4 py-2 hover:bg-gray-100">
+                Career
+              </button>
+            </li>
+            <li>
+              <button className="block w-full text-left px-4 py-2 hover:bg-gray-100">
+                About Us
+              </button>
+            </li>
+            <li>
+              <button className="block w-full text-left px-4 py-2 hover:bg-gray-100">
                 Product
               </button>
             </li>
