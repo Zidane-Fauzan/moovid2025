@@ -60,7 +60,6 @@ const Body = () => {
         <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-4">
         <h1 className="text-[#15b7ec] text-xl sm:text-3xl font-normal mb-4 tracking-wider ">
         Every Moovid journey is a celebration of you 
-          <p/>
           unleash the boundaries, just keep mooving
           </h1>
         </div>
@@ -69,7 +68,7 @@ const Body = () => {
       <div className="w-full h-[40vh]">
       <iframe
         title="Google Map"
-        className="w-full h-full border-0 p-8"
+        className="w-full h-full border-0 p-8 rounded-xl"
         src="https://www.google.com/maps/embed/v1/place?q=Mampang+Business+Park&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
         allowFullScreen
         loading="lazy"
